@@ -2,6 +2,7 @@ import { Schema } from 'mongoose';
 
 export const DocenteSchema = new Schema({
   nombre: String,
+  foto: String,
   carrera: String,
   nivel: String,
   universidades: [String],
@@ -14,4 +15,3 @@ export const DocenteSchema = new Schema({
   ratingPromedio: Number,
 });
  
-
